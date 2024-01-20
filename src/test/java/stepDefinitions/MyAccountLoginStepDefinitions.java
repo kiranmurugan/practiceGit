@@ -45,7 +45,7 @@ public class MyAccountLoginStepDefinitions {
 	public void enter_the_valid_username_and_password(String uname, String pass) {
 	  
 		driver.findElement(By.xpath("//label[text()='Username or email address ']//following-sibling::input")).sendKeys(uname);
-	    driver.findElement(By.xpath("//label[text()='Password ']//following-sibling::input")).sendKeys(pass);
+	    driver.findElement(By.xpath("//label[text()='Password ']//following-sibling::input")).sendKeys(passed);
 	}
 
 	@And("Click on Login buttona")

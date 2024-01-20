@@ -21,5 +21,5 @@ Then user must be successfully loged into the we page
 Examples:
 |username |	password |
 |Kiran123@gmail.com |	Kiran@123|
-|username1 |	password1|
+|username1 |	password2|
 |username1|		password1|
