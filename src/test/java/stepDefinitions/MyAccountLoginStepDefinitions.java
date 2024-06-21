@@ -31,6 +31,7 @@ public class MyAccountLoginStepDefinitions {
 	@And("Enter the URL\"https:\\/\\/practice.automationtesting.in\\/\"")
 	public void enter_the_url_https_practice_automationtesting_in() {
 		driver.get("https://practice.automationtesting.in/");
+		driver.getCurrentUrl();
 	    
 	}
 
