@@ -18,9 +18,22 @@ And Enter the valid username "<username>" and password "<password>"
 And Click on Login buttona
 Then user must be successfully loged into the we page
 
+
+
+
+
 Examples:
 |username |	password |
 |Kiran123@gmail.com |	Kiran@123|
 |username1 |	password2|
 |username1|		password12|
 |username1|		password13|
+
+
+
+Scenario: login to bookmyshow WEB page
+
+Given open Browser
+When enter the url "https://in.bookmyshow.com/explore/home/bengaluru"
+And click on "Movies" hyperlink
+Then user must see the text "movies in banglore"
