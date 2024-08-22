@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="0.273" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="Login page of book myshow" name="login to bookmyshow WEB page" time="0.032">
+<system-out><![CDATA[
+Given open Browser..........................................................passed
+When enter the url "https://in.bookmyshow.com/explore/home/bengaluru".......passed
+And click on "Movies" hyperlink.............................................passed
+Then user must see the text "movies in banglore"............................passed
+]]></system-out>
+</testcase>
+</testsuite>
